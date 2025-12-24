@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>When You Miss Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #d63447;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .video-link {
+            display: inline-block;
+            background: #d63447;
+            color: white;
+            padding: 20px 40px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-weight: bold;
+            box-shadow: 0 4px 15px rgba(214, 52, 71, 0.3);
+            transition: all 0.3s ease;
+            margin: 20px 0;
+        }
+
+        .video-link:hover {
+            background: #b82839;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(214, 52, 71, 0.4);
+        }
+
+        .message {
+            color: #555;
+            line-height: 1.6;
+            font-size: 1.1em;
+            margin-top: 30px;
+        }
+
+        .heart {
+            font-size: 3em;
+            margin: 20px 0;
+            animation: heartbeat 1.5s ease-in-out infinite;
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .video-link {
+                padding: 15px 30px;
+                font-size: 1em;
+            }
+
+            .message {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>💕 Read Me When You Miss Me 💕</h1>
+        <p class="subtitle">I guess its watch me when you miss me lol</p>
+        
+        <div class="heart">❤️</div>
+        
+        <!-- Replace YOUR-YOUTUBE-LINK with your actual YouTube video URL -->
+        <a href="https://youtu.be/luS6oD9T6tA" target="_blank" class="video-link">
+            ▶ Watch the Video
+        </a>
+
+        <p class="message">
+           I miss you so much, baby. It husrts to say goodbye, but I can't
+            wait till we get to see eachother everyday. I love you.
+           
+        </p>
+    </div>
+</body>
+</html>
